@@ -2,140 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='styles.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <title>MyPortfolio</title>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="home.html"></Menu></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav text-center">
-        <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link text-center" href="#MyAboutMe">About Me<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-center" href="#MyProjects">Projects</a>
-                        </li><li class="nav-item">
-                          <li class="nav-item">
-                        <a class="nav-link text-center" href="#ContactMe">Contact Information</a>
-                     </li>
-                      </ul>
-                    </div>
-                  </nav>
-                
-            <Header id="My Header">
-
-            <div class="jumbotron text-center">
-                    <h2 class="display-4">Katie Moran</h2>
-                    <h3>Software Quality Assurance</h3>
-                    <h4>Microsoft.Net Specialist</h4>
-                    <hr class="my-3">
-                    <p></p>
-                    </div>
-        </Header>
-   
-        <Section class= "MyAboutMe">
-        <div class = "container">
-            <div style ="display:in-line-block;">
-              <img width = "30%" src = "My Picture.jpg" alt = "Picture of Me">
-              <h1 class = "display-5">About Me</h1>
-              
-              <p> 
-                  I have always been a detailed-oriented person.  I am intrigued by what makes a program work and what causes it to fail.
-                  I have always been interested in Software Quality Assurance for this very reason.  The idea of building test cases and planning
-                  for what will and will not work in a program is incredibly interesting to me.  I hope to assist your organization with processing those
-                  test scenarios and planning for what will be the next step in furthering your orgnization.  
-              </p>
-            </div>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#AboutMe" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#MyProjects" class="nav-link">My Projects</a></li>
+            <li class="nav-item"><a href="#ContactMe" class="nav-link">Contact Me</a></li>
+            <li class="nav-item"><a href="https://docs.google.com/document/d/1msZIhB4p-PyJ0lLPTtXQ1S486ujtbVT2tB6QddEySMI/" class="nav-link" target="_blank">Resume</a></li>
+               </ul>
+          </nav>
         </div>
-      </section>
-    
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1 class="display-4">Katie Moran</h1>
+            <hr class="my-4">
+            <p class="lead">Microsoft .NET Specialist</p>
+            <p>Software Developer</p>
+          </div>
+        </div>  
+
+        <div class="container">
+          <div class id="AboutMe">
+            <h2 class="display-5 text-center">About Me</h2>
+            <img src="My Picture.jpg" class="rounded-circle" alt="MyPic">
+            <p2> 
+                I have always been a detailed-oriented person.  I am intrigued by what makes a program work and what causes it to fail.
+                I have always been interested in Software Development and testing for this very reason.  The idea of getting the opportunity to build something
+                on my own has always intrigued me.  I hope to assist your orginization with testing, development, and planning for the future.  I believe I would be a valuable
+                asset to any organization.
+            </p2>
+          </div>
+        </div>
+      </br>
+
+
+      </br>
+
+        <div class="container">
+          <div class id="MyProjects">
+            <h2 class="display-5 text-center"> My Projects</h2>
+          </div>
+        </div>
+        
+        <div class="container mt-5">
+         <div class="card-deck border-primary">
+          <div class="card cardSet1 text-white">
+            <div class="card-body">
+            <img src="csscreatureimg.PNG" class="img-fluid" alt="CSSCreature"/>
+            <h5 class="card-title mt-4">CSS Creature</h5>
+            <h6 class="card-text mt-3">A Creature created with CSS and HTML</h6>
+            <a href="https://github.com/KLMoran85/CSS-Creature" class="btn btn-dark btn-lg">View Github</a>
+          </div>
+        </div>
+          <div class="card cardSet2 text-white">
+              <div class="card-body">
+           <img src="staticstorefront.PNG" class="img-fluid" alt="StaticStore"/>
+          <h5 class="card-title mt-4">Static Store</h5>
+                <h6 class="card-text mt-3">A Static Store created with HTML and CSS</h6>
+                <a href="https://github.com/KLMoran85/Static-Store" class="btn btn-dark btn-lg style=font-family:courier;">View Github</a>
+          </div>
+        </div>
+          <div class="card cardSet3 text-white">
+              <div class="card-body"> 
+          <img src="ConsoleAppChallenges.PNG" class="img-fluid" alt="CSharpConsoleApps"/>
+            <h5 class="card-title mt-4">C# Console App Challenges</h5>
+              <h6 class="card-text mt-3">Console Apps created with C Sharp</h6>
+              <a href="https://github.com/KLMoran85/Console_App_Challenges" class="btn btn-dark btn-lg">View Github</a>
+            </div>
+          </div>
+            <div class="card cardSet4 text-white">
+                <div class="card-body">
+            <img src="BlueBadgeProject.PNG" class="img-fluid" alt="BlueBadgeProject"/>
+          <h5 class="card-title mt-4">Blue Badge Project</h5>
+         <h6 class="card-text mt-3">N Tier Web MVC 5 Appolication</h6>
+         <a href="#" class="btn btn-dark btn-lg">View Github</a>
+         </div>
+            </div>
+         <div class="card cardSet5 text-white">
+            <div class="card-body">
+              <img src="redribbons.jpg" class="img-fluid" alt="RedBadgeProject"/>
+              <h5 class="card-title mt-4">Red Badge Project</h5>
+              <h6 class="card-text mt-3">Red Badge Project</h6>
+              <a href="#" class="btn btn-dark btn-lg">View Github</a>
+            </div>
+            </div>
+          </div>
+        </div>
+  
+
+      <div class="container">
+        <div class id="ContactMe">
+            <h1 class="display text-center">Contact Me</h1>
+         <div class="container contact-form"></div>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="contact-text">Email:- kvlmoran@gmail.com</p>
+                <p class="contact-text">Cell:- 317-509-3967</p>
+              </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control">
+                      </div>
+                      <form action="https://formspree.io/xnqaeyob" method="POST">
+                      <div class="form-group">
+                          <label>Message</label>
+                          <textarea class="form-control" rows="5" ></textarea>
+                        </div>
+                        <div class="form-group">
+                   <button class="btn btn-primary btn-block">Submit</button>
+                    </div>
+                        
+                <a href="https://github.com/KLMoran85" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/katie-moran-430b0b123/" class="fa fa-linkedin"></a>
+              </div>
+            </div>
+            </div>
+        </div>       
+      </div>
+    </div>
       
-    <Section id="MyProjects">
-      <h2>My Projects</h2>
-      <div class = "container1"></div>
-      <div class = "container portfolio-img-div"></div>
-      <div class = "row"></div>
-      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4">
-      <p class = "project-title">CSS Creature</p>  
-        <a class ="project-cover" href= "https://codepen.io/kvlmoran85/pen/XWrPMBY" target="_blank">
-        <img id="colorful bear" class ="img-fluid" src = "csscreatureimg.PNG" alt="Cover image of CSS Creature (Colorful Bear)">
-      </a>
-      <p></p>
-      </div>
-      </div>
-
-      <div class = "container2"></div>
-      <div class = "container portfolio-img-div"></div>
-      <div class = "row"></div>
-      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4">
-      <p class = "project-title">Static StoreFront</p>  
-        <a class ="project-cover" href= "https://codepen.io/kvlmoran85/pen/oNvJwob?editors=1100" target="_blank">
-        <img id="Static StoreFront" class ="img-fluid" src = "staticstorefront.PNG" alt="Cover image of Central Center Perk Page (Colorful Bear)">
-      </a>
-      <p></p>
-      </div>
-      </div>
-
-      <div class = "container3"></div>
-      <div class = "container portfolio-img-div"></div>
-      <div class = "row"></div>
-      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4">
-      <p class = "project-title">Static Blue Badge TBA</p>  
-        <a class ="project-cover" href= "https://codepen.io/kvlmoran85/pen/oNvJwob?editors=1100" target="_blank">
-        <img id="Static StoreFront" class ="img-fluid" src = "blueribbon.jpg" alt="Blue Ribbon">
-      </a>
-      <p></p>
-      </div>
-      </div>
-
-      <div class = "container4"></div>
-      <div class = "container portfolio-img-div"></div>
-      <div class = "row"></div>
-      <div class = "col-xs-12 col-sm-12 col-md-6 col-lg-4">
-      <p class = "project-title">Static Red Badge TBA</p>  
-        <a class ="project-cover" href= "https://codepen.io/kvlmoran85/pen/oNvJwob?editors=1100" target="_blank">
-        <img id="Static StoreFront" class ="img-fluid" src = "redribbons.jpg" alt="Red Ribbon">
-      </a>
-      <p></p>
-      </div>
-      </div>
-    </Section>
-
-    <br>
-
-    <Section id= "ContactMe">
-        <div class = "containercontact">
-        <h2 class = "display-5">Contact Me</h2>
-        <p> 
-            <td>Email: kvlmoran@gmail.com</td>
-            <td>Phone: (317) 397-3562</td>
-        </p>
-
-    </Section>
-  
-    <Section id = "MyFooter">
-    <footer id="MyFooter">
-  
-
-        <hr>      <a href="https://github.com/KLMoran85">Visit my github</a>
-        "
-                Copyright @ 2019 Katie Moran
-                "
-                <br>
-         
-      </footer>
-    </Section>
-
-   
-    
+      <br>
+      <br>
+      <hr>
+      <footer>
+        <div class id="footer">
+         <h5>Copyright@2019 Katie Moran</h6>
+        </div>
+        </footer>
+     
+          
 </head> 
+<script type="text/javascript" src='js/main.js'></script>
 <body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
